@@ -1,12 +1,12 @@
-module github.com/spf13/afero/gcsfs
+module github.com/0magnet/afero/gcsfs
 
 go 1.24.0
 
-replace github.com/spf13/afero => ../
+replace github.com/0magnet/afero => ../
 
 require (
 	cloud.google.com/go/storage v1.51.0
-	github.com/spf13/afero v1.15.0
+	github.com/0magnet/afero v1.15.0
 	golang.org/x/oauth2 v0.28.0
 	google.golang.org/api v0.226.0
 )

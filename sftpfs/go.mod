@@ -1,12 +1,12 @@
-module github.com/spf13/afero/sftpfs
+module github.com/0magnet/afero/sftpfs
 
 go 1.24.0
 
-replace github.com/spf13/afero => ../
+replace github.com/0magnet/afero => ../
 
 require (
 	github.com/pkg/sftp v1.13.8
-	github.com/spf13/afero v1.15.0
+	github.com/0magnet/afero v1.15.0
 	golang.org/x/crypto v0.36.0
 )
 

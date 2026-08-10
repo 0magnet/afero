@@ -24,8 +24,8 @@ import (
 	"cloud.google.com/go/storage"
 	"google.golang.org/api/option"
 
-	"github.com/spf13/afero"
-	"github.com/spf13/afero/gcsfs/internal/stiface"
+	"github.com/0magnet/afero"
+	"github.com/0magnet/afero/gcsfs/internal/stiface"
 )
 
 type GcsFs struct {

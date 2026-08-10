@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/spf13/afero/internal/common"
+	"github.com/0magnet/afero/internal/common"
 )
 
 // readDirNames reads the directory named by dirname and returns

@@ -1,4 +1,4 @@
-module github.com/spf13/afero
+module github.com/0magnet/afero
 
 go 1.25.0
 

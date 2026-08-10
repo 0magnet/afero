@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/pkg/sftp"
-	"github.com/spf13/afero"
+	"github.com/0magnet/afero"
 	"golang.org/x/crypto/ssh"
 )
 

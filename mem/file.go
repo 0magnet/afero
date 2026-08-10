@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/spf13/afero/internal/common"
+	"github.com/0magnet/afero/internal/common"
 )
 
 const FilePathSeparator = string(filepath.Separator)

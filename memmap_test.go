@@ -1038,7 +1038,7 @@ func TestMemFsCreateFileNested(t *testing.T) {
 func TestMemMapFsPermissionChecks(t *testing.T) {
 	// Verify that MemMapFs.Open checks file permissions, matching
 	// real filesystem behavior.
-	// See https://github.com/spf13/afero/issues/150
+	// See https://github.com/0magnet/afero/issues/150
 	fs := &MemMapFs{}
 
 	// Create a file (should get default 0666 permission).
