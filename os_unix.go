@@ -1,4 +1,4 @@
-//go:build !windows && !tinygo
+//go:build !windows && !(tinygo && js)
 
 package afero
 
